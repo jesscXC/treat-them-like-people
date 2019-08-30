@@ -2,6 +2,7 @@
   "name": "treat-them-like-people",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jesscxc.github.io/treat-them-like-people",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
