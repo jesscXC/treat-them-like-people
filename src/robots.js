@@ -1,6 +1,12 @@
-// Default test data for our robot friends.
 
-export const = robots [
+// Default test data for our robot friends.
+export const robots = [
+    {
+        id: 0,
+        name: "Alex Friend",
+        username: "alexfriend",
+        email: "alexfriend@email.com"
+    },
     {
         id: 1,
         name: "Sam Robot",
@@ -12,11 +18,5 @@ export const = robots [
         name: "Sky Robot",
         username: "i_love_helping",
         email: "i_love_helping@email.com"
-    },
-    {
-        id: 3,
-        name: "Alex Friend",
-        username: "alexfriend",
-        email: "alexfriend@email.com"
     }
 ];
