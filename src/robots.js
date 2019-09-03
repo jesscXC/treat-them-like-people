@@ -4,8 +4,8 @@ export const robots = [
     {
         id: 0,
         name: "Alex Friend",
-        username: "alexfriend",
-        email: "alexfriend@email.com"
+        username: "alex_friend",
+        email: "alex_friend@email.com"
     },
     {
         id: 1,
