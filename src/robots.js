@@ -4,11 +4,19 @@ export const = robots [
     {
         id: 1,
         name: "Sam Robot",
+        username: "friendly_person",
         email: "friendly_person@email.com"
     },
     {
         id: 2,
         name: "Sky Robot",
+        username: "i_love_helping",
         email: "i_love_helping@email.com"
+    },
+    {
+        id: 3,
+        name: "Alex Friend",
+        username: "alexfriend",
+        email: "alexfriend@email.com"
     }
 ];
