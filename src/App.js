@@ -5,7 +5,7 @@ import { robots } from './robots.js';
 
 const App = () => {
     return (
-        <div>
+        <div className="tc">
             <h1>Treat Them Like People</h1>
             <SearchBox />
             <CardList robots={robots} />
