@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, rgb(92, 150, 255), rgb(46, 255, 31));
+/*
+  font-family: 'Medula One', cursive;
+  font-size: large;
+  letter-spacing: 0.3em;
+*/
+  font-family: 'Play', sans-serif;
 }
 
 code {
