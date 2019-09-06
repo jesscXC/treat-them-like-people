@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Junction';
+    src: local('junction-regular.woff'), url('junction-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Junction';
+}
