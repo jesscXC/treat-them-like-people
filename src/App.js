@@ -9,13 +9,12 @@ class App extends Component {
         super();
         this.state = {
             robots: [],
-            searchtext: ""
+            searchtext: ''
         }
     }
 
     componentDidMount() {
         this.setState({ robots: robots });
-
     }
 
     onSearchChange = (event) => {
@@ -37,3 +36,4 @@ class App extends Component {
 };
 
 export default App;
+
