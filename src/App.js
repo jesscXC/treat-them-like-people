@@ -13,6 +13,10 @@ class App extends Component {
         }
     }
 
+    componentDidMount() {
+        console.log("component did mount");
+    }
+
     onSearchChange = (event) => {
         this.setState({ searchtext: event.target.value });
     }
