@@ -8,13 +8,14 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            robots: robots,
+            robots: [],
             searchtext: ""
         }
     }
 
     componentDidMount() {
         console.log("component did mount");
+        this.setState({ robots: robots });
     }
 
     onSearchChange = (event) => {
