@@ -1,4 +1,3 @@
-
 // Default test data for our robot friends.
 export const robots = [
     {
@@ -48,5 +47,5 @@ export const robots = [
         name: 'Ada Number',
         username: 'original_programmin',
         email: 'original_programming@email.com'
-    },
+    }
 ];
