@@ -19,7 +19,6 @@ class App extends Component {
         return response.json();
       })
       .then(users => {
-        console.log(robots.concat(users));
         this.setState({ robots: robots.concat(users) });
       });
   }
