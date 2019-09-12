@@ -19,10 +19,9 @@ class App extends Component {
         return response.json();
       })
       .then(users => {
-        console.log(users);
-        this.setState({ robots: users });
+        console.log(robots.concat(users));
+        this.setState({ robots: robots.concat(users) });
       });
-    // this.setState({ robots: robots });
   }
 
   onSearchChange = event => {
