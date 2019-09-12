@@ -33,13 +33,17 @@ class App extends Component {
         .toLowerCase()
         .includes(this.state.searchtext.toLowerCase());
     });
-    return (
-      <div className="tc">
-        <h1 className="f1">Treat Them Like People</h1>
-        <SearchBox searchChange={this.onSearchChange} />
-        <CardList robots={filteredRobots} />
-      </div>
-    );
+    if (robots.length === 0) {
+      return <h1>Loading</h1>;
+    } else {
+      return (
+        <div className="tc">
+          <h1 className="f1">Treat Them Like People</h1>
+          <SearchBox searchChange={this.onSearchChange} />
+          <CardList robots={filteredRobots} />
+        </div>
+      );
+    }
   }
 }
 
