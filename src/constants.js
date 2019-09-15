@@ -1,0 +1,2 @@
+export const CHANGE_SEARCHTEXT = 'CHANGE_SEARCHTEXT';
+
