@@ -26,7 +26,6 @@ class App extends Component {
     super();
     this.state = {
       robots: []
-      // searchtext: ''
     };
   }
 
@@ -39,10 +38,6 @@ class App extends Component {
         this.setState({ robots: robots.concat(users) });
       });
   }
-
-  // onSearchChange = event => {
-  //   this.setState({ searchtext: event.target.value });
-  // };
 
   render() {
     const { robots } = this.state;
