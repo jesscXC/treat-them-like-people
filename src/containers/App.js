@@ -14,7 +14,7 @@ const mapStateToProps = state => {
     searchtext: state.searchRobots.searchtext,
     robots: state.requestRobots.robots,
     isPending: state.requestRobots.isPending,
-    erro: state.requestRobots.error
+    error: state.requestRobots.error
   };
 };
 
