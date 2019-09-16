@@ -7,17 +7,21 @@ import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 
-import { setSearchtext } from '../actions';
+import { setSearchtext, requestRobots } from '../actions';
 
 const mapStateToProps = state => {
   return {
-    searchtext: state.searchRobots.searchtext
+    searchtext: state.searchRobots.searchtext,
+    robots: state.requestRobots.robots,
+    isPending: state.requestRobots.isPending,
+    erro: state.requestRobots.error
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    onSearchChange: event => dispatch(setSearchtext(event.target.value))
+    onSearchChange: event => dispatch(setSearchtext(event.target.value)),
+    onRequestRobots: () => dispatch(requestRobots())
   };
 };
 
