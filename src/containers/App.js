@@ -11,7 +11,7 @@ import { setSearchtext } from '../actions';
 
 const mapStateToProps = state => {
   return {
-    searchtext: state.searchtext
+    searchtext: state.searchRobots.searchtext
   };
 };
 
