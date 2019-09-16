@@ -12,7 +12,7 @@ import { setSearchtext, requestRobots } from '../actions';
 const mapStateToProps = state => {
   return {
     searchtext: state.searchRobots.searchtext,
-    robots: state.requestRobots.robots,
+    robots: robot_friends.concat(state.requestRobots.robots),
     isPending: state.requestRobots.isPending,
     error: state.requestRobots.error
   };

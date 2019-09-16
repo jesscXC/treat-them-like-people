@@ -1,5 +1,5 @@
 // Default test data for our robot friends.
-export const robots = [
+export const robot_friends = [
   {
     id: 'e4c2af75-28d0-4e7c-9bea-25406204d5f0',
     name: 'Alex Friend',
